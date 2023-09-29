@@ -1,4 +1,4 @@
-# EXP NO 1: DATA DEFINITION LANGUAGE COMMANDS IN RDBMS
+# EX-01: DATA DEFINITION LANGUAGE COMMANDS IN RDBMS
 ### AIM:
 To create a student database and execute DDL queries using SQL.
 ### DDL (Data Definition Language)
@@ -30,44 +30,31 @@ create table student(rollno numeric(4), name varchar(50), age numeric(2), addres
 alter table student add department varchar(4);
 ```
 ##### OUTPUT:
+![Screenshot 2023-09-28 185641](https://github.com/ROHITJAIND/EX-1-DDL-COMMANDS/assets/118707073/4ae3659c-5ab3-43a0-89a4-58a2ee4a5b14)
 
 
 #### 3) Drop the student table
-```
-
-```
-
- 
 ##### SQL QUERY: 
-
-
+```SQL
+drop table student;
+```
 ##### OUTPUT:
-
-
+![Screenshot 2023-09-28 190810](https://github.com/ROHITJAIND/EX-1-DDL-COMMANDS/assets/118707073/0a784249-7235-43ef-b0bd-ccc37f92a447)
 #### 4) Delete the student table using truncate keyword
-```
-
-```
-
-
 ##### SQL QUERY: 
-
-
+```SQL
+truncate table student;
+```
 ##### OUTPUT:
-
-
+![Screenshot 2023-09-28 190753](https://github.com/ROHITJAIND/EX-1-DDL-COMMANDS/assets/118707073/444af547-ccfa-4a76-ad3d-83618b796069)
 
 #### 5) Rename the student table to mystudent
-```
-
-```
-
-
 ##### SQL QUERY: 
-
-
+```SQL
+alter table student rename to my_student;
+```
 ##### OUTPUT:
-
+![Screenshot 2023-09-28 190344](https://github.com/ROHITJAIND/EX-1-DDL-COMMANDS/assets/118707073/e4d3f8d4-2ecd-4b53-8ebb-72a97e697aa2)
 
 ### RESULT:
 To create a student database and execute DDL queries using SQL is executed successfully.
