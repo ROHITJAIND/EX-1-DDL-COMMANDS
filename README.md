@@ -19,7 +19,8 @@ RENAME: This is used to rename an object existing in the database.
 #### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 ##### SQL QUERY: 
 ```sql
-create table student(rollno numeric(4), name varchar(50), age numeric(2), address varchar(10), phoneno numeric(10));
+create table student(rollno numeric(4), name varchar(50), age numeric(2),
+                      address varchar(10), phoneno numeric(10));
 ```
 ##### OUTPUT:
 <img height=15% width=80% src="https://github.com/ROHITJAIND/EX-1-DDL-COMMANDS/assets/118707073/79e19638-ce56-40df-a6fb-dc97788f8469">
