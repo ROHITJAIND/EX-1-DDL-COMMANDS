@@ -15,6 +15,10 @@ TRUNCATE: This is used to remove all records from a table, including all spaces 
 RENAME: This is used to rename an object existing in the database.
 </div>
 
+```
+Developed By: ROHIT JAIN D
+Register No: 212222230120
+```
 ### Query:
 #### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 ##### SQL QUERY: 
