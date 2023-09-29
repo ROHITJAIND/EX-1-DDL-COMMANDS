@@ -48,7 +48,7 @@ drop table student;
 truncate table student;
 ```
 ##### OUTPUT:
-<img height=7% width=40% src="https://github.com/ROHITJAIND/EX-1-DDL-COMMANDS/assets/118707073/444af547-ccfa-4a76-ad3d-83618b796069">
+<img height=7% width=45% src="https://github.com/ROHITJAIND/EX-1-DDL-COMMANDS/assets/118707073/444af547-ccfa-4a76-ad3d-83618b796069">
 
 #### 5) Rename the student table to mystudent
 ##### SQL QUERY: 
@@ -56,7 +56,7 @@ truncate table student;
 alter table student rename to my_student;
 ```
 ##### OUTPUT:
-<img height=7% width=40% src="https://github.com/ROHITJAIND/EX-1-DDL-COMMANDS/assets/118707073/e4d3f8d4-2ecd-4b53-8ebb-72a97e697aa2">
+<img height=7% width=50% src="https://github.com/ROHITJAIND/EX-1-DDL-COMMANDS/assets/118707073/e4d3f8d4-2ecd-4b53-8ebb-72a97e697aa2">
 
 ### RESULT:
 To create a student database and execute DDL queries using SQL is executed successfully.
